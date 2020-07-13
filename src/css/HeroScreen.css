@@ -1,0 +1,61 @@
+/*====================================================
+                        HOME
+======================================================*/
+
+canvas{
+    z-index: 0 !important;
+}
+#home {
+    height: 100%;
+    background: #0f0f0f; 
+}
+
+#home-cover {
+    height: 100%;
+    background-image: #333333);
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+/*====================================================
+                       ANIMATE
+======================================================*/
+
+#home-cover,
+#home-heading,
+#home-btn {
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+}
+
+#home-cover {
+    -webkit-animation-delay: .1s;
+            animation-delay: .1s;
+}
+
+#home-heading {
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+}
+
+#home-btn {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}

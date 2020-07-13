@@ -1,0 +1,26 @@
+    /*================================================ Works =====================================*/
+    
+    .items {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        transition: transform .5s cubic-bezier(0.42, 0, 0.71, 0.78);
+    }
+    
+    .items:hover {
+        transform: scale(1.5);
+        cursor: zoom-in;
+    }
+    
+    .row.no-gutters [class*=col-] {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .img-wrapper {
+        overflow: hidden;
+    }
+    
+    .work-container {
+        width: 100%;
+    }

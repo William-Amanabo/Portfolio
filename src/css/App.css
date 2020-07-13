@@ -1,0 +1,113 @@
+#root,.App{
+  height:100%
+}
+
+
+/*====================================================
+                        PARALLAX (Generic)
+======================================================*/
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/*====================================================
+                      BUTTONS (Generic)
+======================================================*/
+
+.btn-general {
+  border-width: 2px;
+  border-radius: 0;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background-color: #fff;
+  color: #41464b;
+}
+
+.btn-blue {
+  border-color: #34c6d3;
+  color: #34c6d3;
+}
+
+.btn-blue:hover {
+  background-color: #34c6d3;
+  color: white;
+  border-color: #34c6d3;
+}
+.btn-blue:focus {
+  background-color: #34c6d3;
+  color: #fff;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
+
+/*====================================================
+                       CONTENT (Generic)
+======================================================*/
+
+
+.content-box {
+  padding: 60px 0 60px 0;
+}
+
+.content-title h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-title-white {
+  color: #fff;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 0 auto 30px auto;
+}
+
+
+/*====================================================
+                       Container (Generic)
+======================================================*/
+
+.full-container {
+  height: 100%;
+  display: contents;
+}
+
+.full-container-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.full-container-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}

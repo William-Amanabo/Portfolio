@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "WA Portfolio",
+  "icons": [
+    {
+      "src": "images/svg/Logo.svg",
+      "sizes": "150x150",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "images/svg/Logo.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/svg/Logo.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#536878",
+  "background_color": "#ffffff"
+}

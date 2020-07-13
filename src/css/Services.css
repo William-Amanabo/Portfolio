@@ -1,0 +1,43 @@
+    /*================================================ Services =====================================*/
+    
+    .service-item-icon i {
+        float: left;
+        padding: 15px;
+        margin-right: 25px;
+        width: 75px;
+        height: 75px;
+        color: #34c6d3;
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+    .service-item-icon i:hover {
+        background-color: #34c6d3;
+        color: white;
+    }
+    
+    .content-container {
+        padding: 60px 0px 60px 0px;
+    }
+    
+    .service-item-title {
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    .service-item {
+        padding: 20px 0px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition:0.3s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
