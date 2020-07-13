@@ -5,7 +5,7 @@ import './css/responsive.css'
 
 import "./css/animate/animate.css";
 
-import './Utils/easing/jquery.easing.1.3.js'
+
 
 import Navigation from "./components/Navigation";
 import HeroScreen from "./components/HeroScreen";

@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/Navigation.css'
 import content from '../content'
 
-import '../Utils/NavigationUtil';
+
 
 export default function Navigation() {
     return (

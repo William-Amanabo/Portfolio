@@ -5,13 +5,13 @@ $(function() {
     new WOW().init();
 });
 
+
 /*============================= Navigation ===================================== */
 
 
 //smooth scrolling
 $(function() {
     $("a.smooth-scroll").click(function(event) {
-        // eslint-disable-next-line no-unused-expressions
         event.preventDefault;
 
         var section = $(this).attr("href")
@@ -130,3 +130,30 @@ $(".js-select2").each(function(){
     
 
 })(jQuery);
+
+//*****************************************magnific-popup************************************* */
+$(function() {
+    $('#projects').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+});
+
+// Smooth scrolling
+$(function () {
+
+    $("a.smooth-scroll").click(function (event) {
+
+        event.preventDefault();
+
+        // get/return id like #about, #work, #team and etc
+        var section = $(this).attr("href");
+
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
+});

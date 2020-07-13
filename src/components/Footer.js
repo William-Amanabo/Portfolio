@@ -25,7 +25,7 @@ export default function Footer() {
             <li>&copy; Copyright 2020 Portfolio Project</li>
             <li>
               Design by{" "}
-              <a title="Styleshout" href="">
+              <a title="Styleshout" href="/">
                 William Amanabo
               </a>
             </li>

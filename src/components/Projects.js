@@ -2,9 +2,8 @@ import React from "react";
 import content from "../content";
 import '../css/Projects.css'
 
-import '../Utils/magnific-pop/magnific-popup-css/magnific-popup.css'
-import '../Utils/magnific-pop/magnific-popup-js/jquery.magnific-popup.min.js'
-import '../Utils/ProjectUtil.js'
+
+
 
 export default function Projects() {
   return (
