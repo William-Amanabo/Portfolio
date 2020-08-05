@@ -31,7 +31,7 @@ export default function Contact() {
                     data-wow-duration="2s"
                     method="POST"
                     encType="multipart/form-data"
-                    action={`mailto:${content.contact.email}`}
+                    action='#'
                   >
                     <span className="contact100-form-title">
                       Send Me A Message
